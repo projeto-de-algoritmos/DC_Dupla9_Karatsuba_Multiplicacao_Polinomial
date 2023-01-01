@@ -1,3 +1,5 @@
+import timeit
+
 def karatsuba(x, y):
     if x < 10 and y < 10:
         return x * y
@@ -21,6 +23,15 @@ def karatsuba(x, y):
 
     return (10 ** (2*nby2))*ac + (10 ** nby2)*ad_plus_bc + bd
 
+start = timeit.default_timer()
+karatsuba_result = karatsuba(12345689123546789132456789321465789123456789,12345689123546789132456789321465789123456789)
+stop = timeit.default_timer()
+print('Time Karatsuba: ', stop - start)
 
+start_2 = timeit.default_timer()
+python_result = 12345689123546789132456789321465789123456789 * 12345689123546789132456789321465789123456789
+stop_2 = timeit.default_timer()
+print('Time Default Python Multiplication: ', stop_2 - start_2)
 
-print(karatsuba(123412341234123412343121245687,8965852156285623182318446))
+# Python uses O(N^2) grade school multiplication algorithm for small numbers, but for big numbers it uses Karatsuba algorithm.
+# Basically multiplication is handled in C code, which can be compiled to machine code and executed faster.
