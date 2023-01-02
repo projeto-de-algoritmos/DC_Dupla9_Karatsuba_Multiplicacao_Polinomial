@@ -1,45 +1,26 @@
-**!! Atenção: Renomeie o seu repositório para (Tema)_(NomeDoProjeto). !!** 
+# Exercícios de Dividir e Conquistar
 
-Temas:
- - Grafos1
- - Grafos2
- - PD
- - D&C
- - Greed
- - Final 
- 
- **!! *Não coloque os nomes dos alunos no título do repositório*. Exemplo de título correto: Grafos2_Labirinto-do-Minotauro !!**
- 
- (Apague essa seção)
-
-# NomedoProjeto
-
-**Número da Lista**: X<br>
-**Conteúdo da Disciplina**: XXXXXXXXXX<br>
+**Número da Lista**: 9<br>
+**Conteúdo da Disciplina**: Dividir e Conquistar<br>
 
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 16/0141842  |  Philipe Rosa Serafim |
+| 16/0143403  |  Renan Welz Schadt |
 
 ## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
-
-## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+O trabalho consiste na comparação de algorítimos implementados em sua forma 'ingênua' e seguindo o conceito de dividir e conquistar.
 
 ## Instalação 
-**Linguagem**: xxxxxx<br>
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+**Linguagem**: Python3<br>
+Necessário ter Python3 instalado e configurado em seu computador.
 
 ## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
+Para executar o código, deve-se executar o comando ```python3 ``` seguido do nome do arquivo a ser executado, sendo assim:
 
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
+ - Para executar o algorítimo de Karatsuba:
+```python3 karatsuba.py```
 
-
-
-
+ - Para executar o algorítimo de Multiplicação de Polinômios:
+```python3 pol_multiply.py```
