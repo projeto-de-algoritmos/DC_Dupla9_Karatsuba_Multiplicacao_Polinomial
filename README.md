@@ -24,3 +24,6 @@ Para executar o código, deve-se executar o comando ```python3 ``` seguido do no
 
  - Para executar o algorítimo de Multiplicação de Polinômios:
 ```python3 pol_multiply.py```
+
+## Apresentação
+[Dupla 09 - Karatsuba e Multiplicação de Polinômios](https://www.youtube.com/watch?v=m2fnABJrX_I)
